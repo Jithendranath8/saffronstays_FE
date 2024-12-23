@@ -61,8 +61,7 @@
 }
 
 .about-text ul {
-  list-style-type: none;
-  padding: 0;
+  padding: 0 1rem;
 }
 
 .about-text ul li {
@@ -131,11 +130,14 @@
 .amenities ul {
   font-family: 'Inter', sans-serif;
   list-style-type: none;
-  padding: 0;
+  padding: 0.4rem;
+  line-height: 2rem;
+
 }
 .amenities-list{
   display: flex;
   justify-content: space-between;
+
 }
 
 .amenities ul li {
