@@ -33,7 +33,7 @@
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -43,6 +43,9 @@
   padding: 0.5rem 1rem;
   border-radius: 10px;
   font-size: 0.9rem;
+}
+.img-tag{
+  margin-right: 0.4rem;
 }
 
 .about-text {
@@ -187,13 +190,26 @@
 }
 
 .meal-button.veg {
-  background: green;
+  background: black;
+  font-size: 22px;
   color: white;
+  text-align: center;
+}
+
+.veg-tag{
+  margin-right: 0.4rem;
+
 }
 
 .meal-button.non-veg {
-  background: red;
+  background: black;
   color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.non-veg-tag{
+  margin-right: 0.4rem;
 }
 
 .meal-links {

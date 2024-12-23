@@ -1,7 +1,13 @@
 import "../styles/aboutSection.css";
 import HorizontalScroll from "./HorizontalScroll";
-// import ac from "../app/assets/ac.svg";
-import house from "../app/assets/public/house.svg";
+import Parking from "../../public/images/parking.svg"
+import House from '../../public/images/house.svg'
+import Person from '../../public/images/person.svg'
+import Bed from '../../public/images/bed.svg'
+import Pet from '../../public/images/pet.svg'
+import Ac from '../../public/images/ac.svg'
+import Veg from '../../public/images/veg.svg'
+import Nonvge from '../../public/images/nonVeg.svg'
 
 const AboutSection = () => {
   return (
@@ -13,10 +19,10 @@ const AboutSection = () => {
         <p className="reviews">| 105 reviews</p>
       </div>
       <div className="tags">
-        <span className="tag">Entire Villa</span>
-        <span className="tag">6-12 Guests</span>
-        <span className="tag">8 Bedrooms</span>
-        <span className="tag">Pet-Friendly</span>
+        <span className="tag"><img className="img-tag" src={House.src}/>Entire Villa</span>
+        <span className="tag"><img className="img-tag" src={Person.src}/>6-12 Guests</span>
+        <span className="tag"><img className="img-tag" src={Bed.src}/>8 Bedrooms</span>
+        <span className="tag"><img className="img-tag" src={Pet.src}/>Pet-Friendly</span>
       </div>
       <div className="about-text">
         <h2>About</h2>
@@ -42,24 +48,24 @@ const AboutSection = () => {
         <ul className="amenities-list">
           <div>
             <li>
-              <span className="icon">🛏️</span> 4 Bedrooms
+              <img className="icon" src={Bed.src}/> 4 Bedrooms
             </li>
             <li>
-              <span className="icon">🚗</span> Free parking
+              <img className="icon" src={Parking.src}></img> Free parking
             </li>
             <li>
-              <span className="icon">🛏️</span> 4 Bedrooms
+            <img className="icon" src={Bed.src}/> 4 Bedrooms
             </li>
           </div>
           <div>
             <li>
-              <span className="icon">👤</span> 12 Guests
+              <img className="icon" src={Person.src}></img> 12 Guests
             </li>
             <li>
-              <span className="icon">❄️</span> Air conditioning
+              <img className="icon" src={Ac.src}></img> Air conditioning
             </li>
             <li>
-              <span className="icon">👤</span> 12 Guests
+            <img className="icon" src={Person.src}></img> 12 Guests
             </li>
           </div>
         </ul>
@@ -72,8 +78,8 @@ const AboutSection = () => {
           spread of home-cooked meals all day, at an additional charge.
         </p>
         <div className="meal-options">
-          <button className="meal-button veg">Veg</button>
-          <button className="meal-button non-veg">Non Veg</button>
+          <button className="meal-button veg"><img  className = "veg-tag" src={Veg.src}/>Veg</button>
+          <button className="meal-button non-veg"><img className="non-veg-tag" src={Nonvge.src}/>Non Veg</button>
         </div>
         <div className="meal-links">
           <button className="meal-link">View Menu</button>
