@@ -1,0 +1,181 @@
+.about {
+  padding: 2rem;
+  background: black;
+  color: #888888;
+  font-family: "Arial", sans-serif;
+}
+
+.rating-reviews {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.star {
+  color: gold;
+  margin-right: 0.3rem;
+}
+
+.reviews {
+  color: #888;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+}
+
+.about-text {
+  margin-bottom: 2rem;
+}
+
+.about-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-text ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.about-text ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.about-text ul li a {
+  color: #A5915F;
+  text-decoration: none;
+}
+
+.about-text ul li a:hover {
+  text-decoration: underline;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.button {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #666;
+}
+
+.amenities {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+.amenities h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.amenities ul {
+  list-style-type: none;
+  padding: 0;
+}
+.amenities-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.amenities ul li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.amenities ul li .icon {
+  margin-right: 0.5rem;
+}
+
+.meals {
+  margin-bottom: 2rem;
+}
+
+.meals h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.meals p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.meal-options {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.meal-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.meal-button.veg {
+  background: green;
+  color: white;
+}
+
+.meal-button.non-veg {
+  background: red;
+  color: white;
+}
+
+.meal-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.meal-link {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.meal-link:hover {
+  background: #666;
+}

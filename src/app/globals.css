@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main-section{
+  display: flex;
+  gap: 20px;
+  background: black;
+  padding:0 4rem 4rem 4rem;
+}
+
+@media screen and (max-width: 600px){
+  .main-section{
+    padding: 0px;
+  }
+}

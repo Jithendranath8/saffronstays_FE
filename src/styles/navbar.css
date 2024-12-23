@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem 5rem;
+    color: white;
+  }
+  .nav-mobile{
+    display: none;
+  }
+
+  .navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+   .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 50px; 
+    width: auto;
+  }
+
+  .navbar-search{
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    padding: 0.8rem;
+    border-radius: 25px;
+    border: 1px solid #4A4A4A;
+    background-color: #2a2a2a;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .navbar-search input {
+    color: white;
+    background-color: inherit;
+    border: none;
+    width: 100%;
+  }
+  
+  .navbar-search input::placeholder {
+    color: #aaa;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .navbar-saffron {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    gap: 0.5rem;
+  }
+  
+  .navbar-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .navbar-phone {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  .navbar-login {
+    background-color: white;
+    font-style: 'Catamaran' , sans-serif;
+    color: black;
+    border: none;
+    padding: 0.75rem 2.1rem;
+    border-radius: 25px;
+    line-height: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-login:hover {
+    background-color: #ddd;
+  }
+  
+@media screen and (max-width: 1024px){
+  .navbar{
+    display: none;
+  }
+  .nav-mobile{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}

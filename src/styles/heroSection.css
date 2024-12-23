@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+.hero {
+    position: relative;
+  }
+  
+  .hero-image {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-content {
+    position: absolute;
+    bottom: 50px;
+    left: 10%;
+    top: 40%;
+    color: white;
+  }
+
+  .hero-content h1{
+    font-family: "Lora", serif;
+    line-height: 4.8rem;
+    font-weight: 400;
+    font-size: 3.75rem;
+    margin: 0;
+  }
+
+  .hero-content p{
+    font-family: "Inter", serif;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+  }
+  
+  .xseries-badge {
+    background-color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 600px){
+    .hero-content h1{
+      font-size: 1.75rem;
+      line-height: 1rem;
+      margin: 0;
+    }
+    .hero-content p{
+      font-size: 14px;
+      margin: 0;
+    }
+    .xseries-badge{
+      margin-top: 0px;
+    }
+  }

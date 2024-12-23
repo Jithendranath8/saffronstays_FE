@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.horizontal-scroll {
+    padding: 1rem;
+    background-color: black;
+    overflow-x: auto;
+    display: flex;
+    scroll-behavior: smooth;
+    width: 790px;
+    height: 390px;
+  }
+  
+  .card-container {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .card {
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    overflow: hidden;
+    min-width: 300px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-image {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    text-align: left;
+    padding: 0.8rem;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.89rem;
+  }
+  
+  .card-user {
+    color: #888;
+    font-style: 'Inter', sans-serif;
+    font-weight: 400;
+  }
+  
+  .card-date {
+    color: #888;
+  }
+  
+@media screen and (max-width: 600px){
+   .horizontal-scroll{
+        width: 360px;
+   } 
+}
