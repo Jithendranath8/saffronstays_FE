@@ -12,6 +12,7 @@ const HorizontalScroll = () => {
 
   return (
     <div className="horizontal-scroll">
+      <h2 className="scroll-title"> Real Moments</h2>
       <div className="card-container">
         {cards.map((card) => (
           <div className="card" key={card.id}>

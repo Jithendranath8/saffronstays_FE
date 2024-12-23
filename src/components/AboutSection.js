@@ -1,6 +1,7 @@
 import "../styles/aboutSection.css";
 import HorizontalScroll from "./HorizontalScroll";
-import ac from "../app/assets/ac.svg";
+// import ac from "../app/assets/ac.svg";
+import house from "../app/assets/public/house.svg";
 
 const AboutSection = () => {
   return (
